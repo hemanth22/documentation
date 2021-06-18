@@ -1,2 +1,2 @@
 # documentation
-documentation for my repository
+Welcome to my repository documentation
