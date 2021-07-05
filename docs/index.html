@@ -10,14 +10,17 @@
 </head>
 <body>
   <div id="app"></div>
+  .content {
+  overflow: auto;
+  }
   <script>
     window.$docsify = {
       auto2top: true,
       loadSidebar: true,
-      alias: {
-      '/.*/_sidebar.md': '/_sidebar.md'
-      }
-      coverpage: true
+      coverpage: true,
+      search: {
+        paths: 'auto',
+      },
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
