@@ -1,4 +1,4 @@
-# documentation  
+# quick-start  
 
 Welcome to my repository documentation.
 
