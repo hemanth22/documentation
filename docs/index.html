@@ -13,20 +13,26 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+      repo: 'https://github.com/hemanth22/documentation',
       auto2top: true,
       loadSidebar: true,
       coverpage: true,
       search: 'auto',
       subMaxLevel: 2,
-      repo: 'https://github.com/hemanth22/documentation',
+      autoHeader: true,
       tabs: {
           persist: true,
           sync: true,
           theme: 'classic',
           tabComments: true,
           tabHeadings: true
+      },
+      executeScript: true,
+      search: {
+        noData: 'No results!',
+        placeholder: 'Search question'
       }
-    };
+    }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
